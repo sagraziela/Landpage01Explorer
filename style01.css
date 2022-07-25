@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+#hero {
+    size: 579px 592px;
+    width: 592px;
+    margin: 0 auto 72px;
+    font-family: Inter;
+}
+
+span, a {
+    color: #FF9900;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-top: 72px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+p {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 32px;
+}
+
+footer {
+    text-align: center;
+    font-family: Open-sans;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 33px;
+}
+
+footer a+a { /* lê-se de trás para frente "o A que vem antes do A" */
+    margin-left: 28px;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
